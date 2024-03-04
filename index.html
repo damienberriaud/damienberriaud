@@ -1,1 +1,100 @@
-Hello World
+<link rel="stylesheet" href="css/styles.css">
+
+<body>
+    <!--Agenda bar-->
+    <div class="agenda-bar">
+        <a class="agenda-option" href="#about">About</a>
+        <a class="agenda-option" href="#publication">Publications</a>
+        <a class="agenda-option" href="#currentprojects">Current projects</a>
+        <a class="agenda-option" href="#pastprojects">Past projects</a>
+        <a class="agenda-option" href="cv.pdf" target="_blank">CV</a>
+    </div>
+
+
+    <!--Header content-->
+    <div class="header" id="about">
+        <img src="images/Damien1.jpg" class="profile-small" alt="Damien Berriaud">
+        <h1>Damien Berriaud</h1>
+        <h4>Doctoral Student at ETH Zurich </h4>
+        <a href="mailto:damien.berriaud@gmail.com"><img src="images/email.png" alt="email" class="click-buttons"></a>
+        <a href="https://disco.ethz.ch/members/dberriaud" target="_blank"><img src="images/eth.jpeg" alt="eth"
+                class="click-buttons"></a>
+        <a href="https://www.linkedin.com/in/damienberriaud/" target="_blank"><img src="images/linkedin.png"
+                alt="linkedin" class="click-buttons"></a>
+    </div>
+
+    <!--About me-->
+    <div class="about-me">
+        <h2> About me</h2>
+        <p> Since my childhood, I noticed that I am different from other people. I have been crazier, cuter, activer
+            than my mates. I once forgot to bring the house key outside. When I arrived home, I noticed that I had
+            to wait for other family members to come out for at least one hour. What would you do? Maybe try to call
+            them, maybe try to read? I chose to do math. 1+1=2, 2+2=4, 4+4=8, etc. Do you know how does it look like
+            when you have more than 100 digits? I know. That's not the only crazy story I had. I like to do sports.
+            I tried to run SOLA two weeks after a severe sickness. Even though I felt my asthma, it can not stop me
+            from running. I got into top 100 out of more than 1000 people. Two sips of ventolin, da la. One question
+            always bothers me. Do people not swim in the river or lake in winter? They really do not know what they
+            miss. Imagine fresh water from the top of mountains, olala. I did some hundred kilometers biking in Taiwan
+            when the temperature was above 40 degrees (of course it's Celcius, who the hell is using Fahrenheit?) What
+            else have I done? Yeah what else? I need some more feedback, please write to: s210307@icloud.com. We
+            sincerely ask for more stories.</p>
+    </div>
+
+    <!--Publications-->
+    <div class="publications" id="publication">
+        <h2> Publications</h2>
+        <details>
+            <summary>
+                <a class="bbbreak"> Stable Dinner Party Seating Arrangements [Best Paper Award]</a>
+                <a href="https://arxiv.org/abs/2305.09549" target="_blank" class="break"><img src="images/link.png"
+                        alt="link" class="linkicon"></a>
+                <a class="break">Damien Berriaud, Andrei Constantinescu and Roger Wattenhofer.</a>
+                <a class="break">19th Conference on Web and Internet Economics (WINE), Shanghai, China, December
+                    2023.</a>
+            </summary>
+            <div class="undersummary">
+                <div>
+                    <img src="images/dinner_table.jpeg" class="paper-photo">
+                </div>
+                <div>
+                    <p>A group of n agents with numerical preferences for each other are to be
+                        assigned
+                        to the n seats of a dining table. We study two natural topologies: circular (cycle)
+                        tables and panel (path) tables. For a given seating arrangement, an agent’s utility
+                        is the sum of its preference values towards its (at most two) direct neighbors. An
+                        arrangement is envy-free if no agent strictly prefers someone else’s seat, and it is
+                        stable if no two agents strictly prefer each other’s seats. We show that it is NPcomplete to
+                        decide
+                        whether
+                        an envy-free arrangement exists for both paths and
+                        cycles, even with binary preferences. In contrast, under the assumption that agents
+                        come from a bounded number of classes, for both topologies, we present polynomialtime algorithms
+                        computing
+                        envy-free and stable arrangements, working even for
+                        general preferences. Proving the hardness of computing stable arrangements seems
+                        more difficult, as even constructing unstable instances can be challenging. To this
+                        end, we propose a characterization of the existence of stable arrangements based on
+                        the number of distinct values in the preference matrix and the number of classes of
+                        agents. For two classes of agents, we show that stability can always be ensured, for
+                        both paths and cycles. For cycles, we moreover show that binary preferences with
+                        four classes of agents, as well as three-valued preferences with three classes of agents,
+                        are sufficient to prevent the existence of a stable arrangement. For paths, the latter
+                        still holds, while we argue that a path-stable arrangement always exists in the binary
+                        case under the additional constraint that agents can only swap seats when sitting
+                        at most two positions away. We moreover consider the swap dynamics and exhibit
+                        instances where they do not converge, despite a stable arrangement existing.
+                    </p>
+                </div>
+            </div>
+        </details>
+    </div>
+
+    <!--Projects-->
+    <div class="currentprojects" id="currentprojects">
+        <h2> Current Projects</h2>
+    </div>
+
+    <div class="pastprojects" id="pastprojects">
+        <h2> Past Projects</h2>
+    </div>
+</body>

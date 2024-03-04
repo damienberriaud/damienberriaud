@@ -1,0 +1,191 @@
+/* General Website Style rules */
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-image: url("../images/background5.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a {
+    color: #112d4e;
+
+}
+
+/*Agenda*/
+.agenda-bar {
+    position: fixed;
+    top: 0;
+    text-align: right;
+    padding: 10px;
+    width: 98%;
+    z-index: 100;
+}
+
+.agenda-option {
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.agenda-option:hover {
+    background-color: #2d3b3d;
+    color: white;
+}
+
+
+/*Top header profile image*/
+.profile-small {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+
+/*Top header buttons*/
+.click-buttons {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 100%;
+}
+
+/* Header Title */
+.header {
+    padding: 40px;
+    text-align: center;
+    /*background: #DCDCDC;*/
+    margin: 30px 250px 30px 250px;
+    font-size: 20px;
+    /*border-radius: 25px;
+    *opacity: 80%;*/
+}
+
+/* About me*/
+.about-me {
+    padding: 30px;
+    text-align: left;
+    background: #DCDCDC;
+    margin: 30px 250px 30px 250px;
+    font-size: 20px;
+    border-radius: 25px;
+    opacity: 80%;
+}
+
+.about-me p {
+    text-align: left;
+}
+
+/* Publications*/
+.publications {
+    padding: 30px;
+    text-align: left;
+    background: #b0b0b0;
+    margin: 30px 250px 30px 250px;
+    font-size: 20px;
+    border-radius: 25px;
+    opacity: 90%;
+}
+
+/* line break*/
+.bbreak {
+    text-decoration: none;
+}
+
+summary {
+    text-align: left;
+    background: #b0b0b0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+details {
+    color: black;
+    padding: 10px;
+    margin-bottom: 1rem;
+    opacity: 90%;
+}
+
+details[open] summary {
+    background: #b0b0b0;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    opacity: 90%;
+}
+
+
+.paper-photo {
+    width: 265px;
+    position: absolute;
+}
+
+details>.undersummary {
+    display: grid;
+    grid-template-columns: 280px auto;
+    background: white;
+    opacity: 90%;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    height: 200px;
+    overflow: auto;
+}
+
+
+
+.break {
+    color: black;
+}
+
+
+.bbbreak::after {
+    content: "";
+    white-space: pre;
+}
+
+.bbbreak {
+    font-weight: bold;
+}
+
+
+.linkicon {
+    height: 20px;
+    width: 20px;
+    opacity: 100%;
+}
+
+.linkicon::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.break::after {
+    content: "\a";
+    white-space: pre;
+}
+
+/* Current Projects*/
+.currentprojects {
+    padding: 30px;
+    text-align: left;
+    background: #848484;
+    margin: 30px 250px 30px 250px;
+    font-size: 20px;
+    border-radius: 25px;
+    opacity: 90%;
+}
+
+/* PastProjects*/
+.pastprojects {
+    padding: 30px;
+    text-align: left;
+    background: #696969;
+    margin: 30px 250px 30px 250px;
+    font-size: 20px;
+    border-radius: 25px;
+    opacity: 90%;
+}
