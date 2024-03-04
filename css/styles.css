@@ -6,12 +6,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 a {
     color: #112d4e;
-
 }
 
 /*Agenda*/
@@ -22,6 +20,7 @@ a {
     padding: 10px;
     width: 98%;
     z-index: 100;
+
 }
 
 .agenda-option {
@@ -65,12 +64,12 @@ a {
 
 /* About me*/
 .about-me {
-    padding: 30px;
+    padding: 10px 40px;
     text-align: left;
     background: #DCDCDC;
-    margin: 30px 250px 30px 250px;
+    margin: 10px 250px 10px 250px;
     font-size: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     opacity: 80%;
 }
 
@@ -80,12 +79,12 @@ a {
 
 /* Publications*/
 .publications {
-    padding: 30px;
+    padding: 10px 30px;
     text-align: left;
     background: #b0b0b0;
     margin: 30px 250px 30px 250px;
     font-size: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     opacity: 90%;
 }
 
@@ -120,6 +119,7 @@ details[open] summary {
 .paper-photo {
     width: 265px;
     position: absolute;
+    height: 200px;
 }
 
 details>.undersummary {
@@ -170,22 +170,22 @@ details>.undersummary {
 
 /* Current Projects*/
 .currentprojects {
-    padding: 30px;
+    padding: 10px 40px;
     text-align: left;
     background: #848484;
     margin: 30px 250px 30px 250px;
     font-size: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     opacity: 90%;
 }
 
 /* PastProjects*/
 .pastprojects {
-    padding: 30px;
+    padding: 10px 40px;
     text-align: left;
     background: #696969;
     margin: 30px 250px 30px 250px;
     font-size: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     opacity: 90%;
 }

@@ -1,0 +1,53 @@
+/* General Website Style rules */
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-image: url("../images/background2.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #112d4e;
+}
+
+/*Agenda*/
+.agenda-bar {
+    position: fixed;
+    top: 0;
+    text-align: right;
+    padding: 10px;
+    width: 98%;
+    z-index: 100;
+
+}
+
+.agenda-option {
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.agenda-option:hover {
+    background-color: #2d3b3d;
+    color: white;
+}
+
+/*Layouts*/
+.layout {
+    display: grid;
+    margin: 90px 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    text-align: center;
+}
+
+.layout a {
+    font-size: 30px;
+}
+
+.star {
+    height: 20px;
+}
