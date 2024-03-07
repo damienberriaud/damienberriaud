@@ -12,6 +12,10 @@ a {
     color: #112d4e;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /*Agenda*/
 .agenda-bar {
     position: fixed;
@@ -149,11 +153,11 @@ details[open] summary {
 details>.undersummary {
     display: grid;
     grid-template-columns: 280px auto;
-    background: white;
+    background: whitesmoke;
     opacity: 90%;
     text-align: left;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 10px;
     height: 200px;
     overflow: auto;
@@ -165,6 +169,11 @@ details>.undersummary {
     color: black;
 }
 
+.breakplace {
+    color: black;
+    font-style: italic;
+}
+
 
 .bbbreak::after {
     content: "";
@@ -173,8 +182,8 @@ details>.undersummary {
 
 .bbbreak {
     font-weight: bold;
+    color: black;
 }
-
 
 .linkicon {
     height: 20px;
