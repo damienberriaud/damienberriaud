@@ -1,3 +1,5 @@
+@charset "utf-16";
+
 html {
     overscroll-behavior-y: none;
     overflow-x: hidden;
@@ -168,6 +170,10 @@ details>.undersummary {
     padding: 10px;
     height: 200px;
     overflow: auto;
+}
+
+summary a * {
+    pointer-events: none;
 }
 
 
