@@ -82,7 +82,7 @@ a {
     font-size: 20px;
     border-radius: 10px;
     opacity: 90%;
-    /*height: 500px;*/
+    height: 500px;
     margin: 0;
     padding: 20px;
     text-align: justify;
@@ -98,18 +98,18 @@ a {
 
 .project-title {
     float: left;
-    font-size: 30px;
+    font-size: 29px;
     vertical-align: bottom;
 }
 
 
 .project-date {
-    float: right;
+    float: left;
     font-size: 20px;
     font-style: italic;
     color: #696969;
-    -ms-transform: translateY(40%);
-    transform: translateY(40%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
 }
 
 .project p {
