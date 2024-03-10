@@ -25,6 +25,14 @@ a:link {
     text-decoration: none;
 }
 
+em {
+    font-style: italic;
+  }
+
+strong {
+    font-style: bold;
+  }
+
 /*Agenda*/
 .agenda-bar {
     position: fixed;
@@ -103,6 +111,7 @@ a:link {
 .new {
     display: grid;
     grid-template-columns: 150px auto;
+    text-align: justify;
 }
 
 .new::after {
