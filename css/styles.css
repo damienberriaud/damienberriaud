@@ -170,6 +170,7 @@ details>.undersummary {
     padding: 10px;
     height: 200px;
     overflow: auto;
+    text-align: justify;
 }
 
 summary a * {
@@ -202,6 +203,8 @@ summary a * {
     height: 20px;
     width: 20px;
     opacity: 100%;
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
 }
 
 .linkicon::after {

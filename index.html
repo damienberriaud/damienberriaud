@@ -62,10 +62,9 @@
         <h2> Publications</h2>
         <details>
             <summary>
-                <a class="bbbreak"> Learning to Bid in Repeated Karma Auctions: Towards more Efficient and Fair Resource
-                    Allocations </a>
-                <a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/630212/Learning_to_bid_in_Repeated_Karma_Auctions.pdf"
-                    target="_blank" class="break"><img src="images/link.png" alt="link" class="linkicon"></a>
+                <a class="bbbreak"> To Spend or to Gain: Online Learning in Repeated Karma Auctions </a>
+                <a href="https://arxiv.org/abs/2403.04057" target="_blank" class="break"><img src="images/link.png"
+                        alt="link" class="linkicon"></a>
                 <a class="break">Damien Berriaud, Ezzat Elokda, Devansh Jalota, Marco Pavone, Florian Dörfler.</a>
             </summary>
             <div class="undersummary">
@@ -73,31 +72,36 @@
                     <img src="images/karma.png" class="paper-photo">
                 </div>
                 <div>
-                    <p>In a world of finite resources, optimal allocation problems are destined to play a very central
-                        role. When the allocation problem is repeated, karma mecha- nisms allow a population of
-                        self-interested agents to achieve fair yet socially efficient allocations. In such schemes,
-                        agents trade the immediate access to a resource for its access in the future by means of an
-                        artificial karma currency in a succession of auctions. Thus far, the problem of learning an
-                        optimal bidding strategy from the perspective of a single agent attracted little work. There are
-                        however many results in the related ad auction literature, where the currency keeps its value
-                        outside the auctions. We first study a simplified setting where karma is only issued at the
-                        start of an episode and devise a simple practical strategy that is asymptotically optimal when
-                        the competing bids are independent of an agent bidding behavior, which intuitively occurs when
-                        the population grows large. We moreover show that the learning dy- namics that arise from the
-                        simultaneous adoption of such strategies converge and that the incentive for any agent to
-                        deviate unilaterally decreases to zero as the number of agents augments. We then extend our
-                        analysis to support gains of karma throughout the episode and propose strategies with similar
-                        guarantees of performance and convergence.
+                    <p>Recent years have seen a surge of artificial currency-based mechanisms in contexts where monetary
+                        instruments are deemed unfair or inappropriate, e.g., in allocating food donations to food
+                        banks, course seats to students, and, more recently, even for traffic congestion management. Yet
+                        the applicability of these mechanisms remains limited in repeated auction settings, as it is
+                        challenging for users to learn how to bid an artificial currency that has no value outside the
+                        auctions. Indeed, users must jointly learn the value of the currency in addition to how to spend
+                        it optimally. In this work, we study the problem of learning to bid in two prominent classes of
+                        artificial currency auctions: those in which currency, which users spend to obtain public
+                        resources, is only issued at the beginning of a finite period; and those where, in addition to
+                        the initial currency endowment, currency payments are redistributed to users at each time step.
+                        In the latter class, the currency has been referred to as karma, since users do not only spend
+                        karma to obtain public resources but also gain karma for yielding them. In both classes, we
+                        propose a simple learning strategy, called adaptive karma pacing, and show that this strategy a)
+                        is asymptotically optimal for a single user bidding against competing bids drawn from a
+                        stationary distribution; b) leads to convergent learning dynamics when all users adopt it; and
+                        c) constitutes an approximate Nash equilibrium as the number of users grows. Our results require
+                        a novel analysis in comparison to adaptive pacing strategies in monetary auctions, since we
+                        depart from the classical assumption that the currency has known value outside the auctions, and
+                        moreover consider that the currency is both spent and gained in the class of auctions with
+                        redistribution.
                     </p>
                 </div>
             </div>
         </details>
         <details>
             <summary>
-                <a class="bbbreak"> Stable Dinner Party Seating Arrangements [Best Paper Award]</a>
+                <a class="bbbreak"> Stable Dinner Party Seating Arrangements [Best Paper Award] </a>
                 <a href="https://arxiv.org/abs/2305.09549" target="_blank" class="break"><img src="images/link.png"
                         alt="link" class="linkicon"></a>
-                <a class="break">Damien Berriaud, Andrei Constantinescu and Roger Wattenhofer.</a>
+                <a class="break">Damien Berriaud, Andrei Constantinescu, Roger Wattenhofer.</a>
                 <a class="breakplace">19th Conference on Web and Internet Economics (WINE), Shanghai, China, December
                     2023.</a>
             </summary>
@@ -106,20 +110,16 @@
                     <img src="images/dinner_table.jpeg" class="paper-photo">
                 </div>
                 <div>
-                    <p>A group of n agents with numerical preferences for each other are to be
-                        assigned
-                        to the n seats of a dining table. We study two natural topologies: circular (cycle)
-                        tables and panel (path) tables. For a given seating arrangement, an agent’s utility
-                        is the sum of its preference values towards its (at most two) direct neighbors. An
+                    <p>A group of n agents with numerical preferences for each other are to be assigned to the n seats
+                        of a dining table. We study two natural topologies: circular (cycle) tables and panel (path)
+                        tables. For a given seating arrangement, an agent’s utility is the sum of its preference values
+                        towards its (at most two) direct neighbors. An
                         arrangement is envy-free if no agent strictly prefers someone else’s seat, and it is
                         stable if no two agents strictly prefer each other’s seats. We show that it is NPcomplete to
-                        decide
-                        whether
-                        an envy-free arrangement exists for both paths and
-                        cycles, even with binary preferences. In contrast, under the assumption that agents
+                        decide whether an envy-free arrangement exists for both paths and cycles, even with binary
+                        preferences. In contrast, under the assumption that agents
                         come from a bounded number of classes, for both topologies, we present polynomialtime algorithms
-                        computing
-                        envy-free and stable arrangements, working even for
+                        computing envy-free and stable arrangements, working even for
                         general preferences. Proving the hardness of computing stable arrangements seems
                         more difficult, as even constructing unstable instances can be challenging. To this
                         end, we propose a characterization of the existence of stable arrangements based on
