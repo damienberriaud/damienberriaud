@@ -85,9 +85,7 @@ a {
     /*height: 500px;*/
     margin: 0;
     padding: 20px;
-    text-align: left;
-    word-break: break-all;
-    hyphens: auto;
+    text-align: justify;
 }
 
 .photo {
@@ -117,6 +115,4 @@ a {
 .project p {
     /*margin: 15x;*/
     padding: 5px 20px;
-    hyphens: auto;
-
 }
